@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.viewsets import ModelViewSet
-from .models import Company
-from .serializers import CompanySerializer
+from api.techapp.companies.models import Company
+from api.techapp.companies.serializers import CompanySerializer
 
 
 class CompanyViewSet(ModelViewSet):
